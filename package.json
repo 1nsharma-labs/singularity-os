@@ -1,0 +1,41 @@
+{
+  "name": "singularity-os",
+  "version": "2046.1.0",
+  "description": "The Autonomous Super-Intelligent Operating System (Year 2046 MAX Spec) — 64-Node Council, 64-Qubit Photonic Register & Post-Quantum Lattice Security",
+  "type": "module",
+  "main": "core/src/quantum/kernel.js",
+  "bin": {
+    "singularity-os": "./cli/bin/singularity.js"
+  },
+  "scripts": {
+    "start": "node cli/bin/singularity.js status",
+    "test": "node --test test/test_singularity.js",
+    "mcp": "node core/src/mcp/server.js"
+  },
+  "keywords": [
+    "singularity",
+    "super-intelligence",
+    "quantum-computing",
+    "post-quantum",
+    "lattice-cryptography",
+    "mcp-server",
+    "year-2046"
+  ],
+  "author": "Amit Sharma <amitsharma9976@gmail.com> (https://github.com/1nsharma)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1nsharma-labs/singularity-os.git"
+  },
+  "homepage": "https://1nsharma-labs.github.io/singularity-os/",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://polar.sh/1nsharma-labs"
+    },
+    {
+      "type": "upi",
+      "url": "upi://pay?pa=6393741171@upi&pn=Amit%20Sharma"
+    }
+  ]
+}
